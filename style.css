@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #d7f1df; /*light background for a clean look*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-family: 'Meow Script', cursive;
+    font-size: 2.5em;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+nav ul li a:hover {
+    color: #f00; /* this changes the color on hover */
+}
+
+/* footer always in bottom*/
+footer {   
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.footer .address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.footer .socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.footer .socialmedia a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333;
+}
+
+.footer .socialmedia a:hover {
+    color: #f00;
+}
+.socialmedia img {
+    width: 30px;
+}
+.socialmedia .social-links{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.socialmedia .social-links a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main */
+
+.main-vedio{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.heading h1{
+    font-size: 2.5em;
+    color: #000000;
+    margin-top: 50px;
+    text-align: center; 
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.content .section{
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #090909;
+}
+.content .section h2{
+    font-size: 1.5em;
+    color: #333;
+}
+.content .section p{
+    font-size: 1.2em;
+    color: #333;
+    text-align: start;
+}
+
+/* tours and appointments */
+
+.hero_tour img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* makes sure the aspect ratio is accurate */
+
+}
+
+.content ul{
+    text-align: start;
+    margin-top: 20px;
+    
+}
+.content ul li{
+    margin: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.map{
+    width: 100%;
+    height: 500px;
+}
+
+/* Community Workshop*/
+
+.upcoming_workshop{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+
+.upcoming_workshop .event{
+    margin: 5px;
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #090909;
+}
+
+/* Contact Us Page */
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+form input{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+form textarea{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #333;
+}
+
+.contact_form{
+    background: #bfbbbb;
+    margin: 0 auto;
+}
+
+
+/* Sustain */
+.sustain_section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+.sustain_section img{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+}
+.sustain_section .section_text{
+    width: 25%;
+    padding: 20px;
+    text-align: start;
+}
+
+
